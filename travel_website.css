@@ -80,7 +80,7 @@ nav {
   }
 
   .container {
-    padding: 50px;
+    padding: 100px;
   }
 
   .container h1 {
@@ -92,11 +92,65 @@ nav {
     font-size: 15px;
     color: #fff;
     padding: 20px 0;
+    line-height: 20px;
   }
   .container button {
     padding: 20px 50px;
     font-size: 20px;
     margin-top: 20px;
+  }
+
+  /* About us */
+   .about-container {
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+
+  .about-container h1 {
+    font-size: 80px;
+    color: #fff;
+  }
+
+  .about-container p {
+    font-size: 15px;
+    color: #fff;
+    padding: 20px 0;
+    line-height: 20px;
+  }
+ /* about team */
+  .team-container {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .team-container h1 {
+    font-size: 80px;
+    color: #fff;
+  }
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.team-members img {
+    width: 40px;
+    border-radius: 100px;
+}
+.team-members div {
+    background-color: #000000a6;
+    padding: 20px 50px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.team-members button {
+    padding: 50px;
+}
+  .team-members h1, p {
+    font-size: 15px;
+    color: #fff;
   }
   
   /* Basic CSS for the report section */
