@@ -181,12 +181,18 @@ nav {
 .team-members button {
     padding: 10px 50px;
 }
-  .team-members h1, p {
+  .team-members h1 {
     font-size: 15px;
     color: #fff;
     padding-bottom: 5px;
   }
-  
+
+  .team-members p {
+    font-size: 15px;
+    color: #fff;
+    padding-bottom: 5px;
+  }
+
   /* Contact us */
   .contact-container {
     padding-top: 100px;
@@ -217,10 +223,14 @@ nav {
   }
 
   /* Basic CSS for the report section */
-  h2 {
+ #result h2 {
     margin-top: 30px;
-    color: #000000;
-    background-color: #fff;
+    color: #fff;
+  }
+
+  #result p {
+    margin-top: 10px;
+    color: #fff;
   }
   
   #report,#result {
@@ -236,7 +246,12 @@ nav {
   align-items: left;
   justify-content: space-around;
   flex-direction: column;
-  background-color: #fff;
+  background-color: #ffffff33;
+  position: absolute;
+  z-index: 10;
+  right: 0; 
+  top: 20;   
+  margin-right: 20px; 
 }
   #result img{
     width: 100%;
