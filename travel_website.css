@@ -219,23 +219,27 @@ nav {
   /* Basic CSS for the report section */
   h2 {
     margin-top: 30px;
+    color: #000000;
+    background-color: #fff;
   }
   
   #report,#result {
     padding: 10px;
     max-width: 400px;
     word-wrap: break-word;
+
   }
 #result{
   height: 400px;
   width: 500px;
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: space-around;
   flex-direction: column;
+  background-color: #fff;
 }
   #result img{
-    width: 200px;
-    height: 100px;
+    width: 100%;
+    background-color: #fff;
   }
   
